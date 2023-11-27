@@ -7,7 +7,7 @@
 # abacabadabacabaeabacabadabacaba
 
 def generate_pattern():
-    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    alphabet = 'abcdefg'
     result = ""
 
     for i in range(7):  #until g
