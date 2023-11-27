@@ -1,0 +1,23 @@
+3. No need to write a program. Just pseudocode is enough.Define a class for a instagram post. Define the properties and functions.
+Define which one will be pRIVATE and which one public.
+
+
+---PSEUDOCODE---
+Class InstagramPost:
+    pRIVATE properties:
+        - username
+        - caption
+        - image_url
+        - likes
+        - comments
+        - post_date
+        
+    public methods:
+        - __init__(username, caption, image_url)  # Constructor to initialize properties
+        - add_like(user)  # Increment the likes count and add user to liked_users list
+        - add_comment(user, comment)  # Add a comment with user's name and comment text
+        - get_likes()  # Return the number of likes
+        - get_comments()  # Return a list of comments with usernames and text
+        - get_post_date()  # Return the date and time of the post
+        - set_post_date(post_date)  # Set the date and time when the post was created
+        - display_post()  # Display detailed information about the post, including username, caption, image URL, likes, comments, and post date
